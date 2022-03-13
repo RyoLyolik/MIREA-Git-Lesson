@@ -1,5 +1,2 @@
 ﻿  lab_3.cpp
-  objects.cpp
-  Создание кода...
-C:\Users\Бичиков Никита\source\repos\lab_3\lab_3\objects.cpp(67): warning C4715: Vector::get_angle: значение возвращается не при всех путях выполнения
   lab_3.vcxproj -> C:\Users\Бичиков Никита\source\repos\lab_3\Debug\lab_3.exe

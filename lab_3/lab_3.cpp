@@ -9,15 +9,23 @@ int main()
 {
     Vector v1{ 1,1 };
     Vector v2{ 1,2 };
-    Vector v3 = v1 + v2;
-    v3.print_decart();
-    v3.print_polar();
-    v1 += v2;
-
+    cout << "v1: ";
     v1.print_decart();
+    cout << "v2: ";
     v2.print_decart();
+    Vector v3 = v1 + v2;
+    cout << "v3 = v1+v2 in decart: ";
+    v3.print_decart();
+    cout << "v3 = v1+v2 in polar: ";
+    v3.print_polar();
     double m = v1*v2;
-    cout << m;
+    cout << "m=v1*v1: ";
+    cout << m << endl;
+
+    Circle c{ 0,0,1, "Circle"};
+    cout << "Name: " <<c.get_name() << endl;
+    cout << "Area: " << c.get_area() << endl;
+    cout << "Perimeter: " << c.get_perimeter();
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"

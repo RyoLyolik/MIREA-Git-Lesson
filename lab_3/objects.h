@@ -12,15 +12,18 @@ public:
 		x = 0;
 		y = 0;
 		radius = 1;
+		name = "Circle";
 	}
-	Circle(double start_x, double start_y, double start_r) {
+	Circle(double start_x, double start_y, double start_r, string start_name) {
 		x = start_x;
 		y = start_y;
 		radius = start_r;
+		name = start_name;
 	}
 	double get_area();
 	double get_perimeter();
 	double get_diameter();
+	double get_radius();
 	double get_x();
 	double get_y();
 	string get_name();

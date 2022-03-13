@@ -11,6 +11,10 @@ double Circle::get_perimeter() {
 double Circle::get_diameter() {
 	return 2 * radius;
 }
+double Circle::get_radius()
+{
+	return radius;
+}
 double Circle::get_x() {
 	return x;
 }
