@@ -32,6 +32,7 @@ public:
 	void set_y(double cy);
 	void change_radius(double cr);
 	void change_name(string new_name);
+	~Circle() {};
 };
 
 class Vector {
@@ -57,4 +58,5 @@ public:
 	double get_angle();
 	void print_decart();
 	void print_polar();
+	~Vector() {};
 };
